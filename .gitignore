@@ -1,0 +1,28 @@
+# Локальные настройки редакторов и IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Временные файлы и логи
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Зависимости и результаты сборки (если появятся)
+node_modules/
+dist/
+build/
+coverage/
+
+# Локальные переменные окружения и секреты
+.env
+.env.*
+!.env.example
